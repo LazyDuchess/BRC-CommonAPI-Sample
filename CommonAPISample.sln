@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonAPISample", "CommonAPISample.csproj", "{16077788-5ED4-4C64-8E75-B96DCAD67F6F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonAPI", "libs\BRC-CommonAPI\CommonAPI.csproj", "{13DC8331-949F-4C02-ADA9-DA1D7C9497E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{16077788-5ED4-4C64-8E75-B96DCAD67F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16077788-5ED4-4C64-8E75-B96DCAD67F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16077788-5ED4-4C64-8E75-B96DCAD67F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DC8331-949F-4C02-ADA9-DA1D7C9497E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DC8331-949F-4C02-ADA9-DA1D7C9497E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DC8331-949F-4C02-ADA9-DA1D7C9497E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DC8331-949F-4C02-ADA9-DA1D7C9497E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
