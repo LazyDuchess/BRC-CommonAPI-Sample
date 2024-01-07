@@ -13,6 +13,8 @@ namespace CommonAPISample
         private void Awake()
         {
             Instance = this;
+            // Create the singleton for our custom save data.
+            new SampleSaveData();
             AppCheats.Initialize();
             AppStageSelect.Initialize();
             // Plugin startup logic

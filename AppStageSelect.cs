@@ -17,6 +17,7 @@ namespace CommonAPISample
         /// </summary>
         public override bool Available => false;
 
+        // This app just lets us teleport to any stage. Even though it's not visible in the homescreen, we still have to register it with PhoneAPI to be able to use it.
         public static void Initialize()
         {
             PhoneAPI.RegisterApp<AppStageSelect>("stage select");
